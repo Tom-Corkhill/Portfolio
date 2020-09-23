@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background {
+  height: 93.4vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url(./images/LandingPic.JPG);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.wrapper {
+  position: absolute;
+  width: 100%;
+}
+.colour {
+  background-color: #f5f5f5 !important;
+  height: 110vh;
+  width: 100%;
+}
+
+
+/* Landing page */
+.greeting1 p{
+  margin-left: 200px;
+  margin-top: 0;
+  font-size: 50px;
+  position: absolute;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.greeting2 p{
+  margin-left: 140px;
+  margin-top: 20px;
+  font-size: 45px;
+  position: absolute;
+  color: white;
+  font-family: 'Bilbo Swash Caps', cursive;
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 20px;
+  border-radius: 10px;
+  height: 150px;
+  width: 500px;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 260px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* About Me */
+.aboutPic {
+  background-image: url(./images/AboutMe.JPG);
+  height: 500px;
+  width: 100%;
+  margin-top: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
 }
+.aboutText {
+  margin-top: 100px;
+  padding: 25px;
+  font-size: 19px;
+}
+.aboutSecondHeading {
+  margin-top: 80px;
+}
+
+
+
+
+
+
+/* Portfolio */
+.portfolioCard {
+  height: 240px;
+  width: 370px;
+  margin-top: 70px;
+  position: absolute;
+}
+.imageSS {
+  background-image: url(./images/TheStoreySocial.jpg);
+}
+.imageYC {
+  background-image: url(./images/YelpCamp.jpg);
+}
+.imagePS {
+  background-image: url(./images/PantrySorter.png);
+}
+.imageSS,
+.imageYC,
+.imagePS {
+  height: 240px;
+  width: 370px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.portfolioTitle {
+  margin-top: 50px;
+  margin-left: 43%;
+  font-size: 35px;
+}
+.portfolioSubtitle {
+  margin-left: 36%;
+  font-size: 20px;
+}
+.portfolioInfo {
+  opacity: 0;
+  height: 120px;
+  width: 370px;
+  margin-top: 30px;
+  margin-left: 29%;
+  position: absolute;
+}
+.portfolioIcons {
+  opacity: 0;
+  height: 120px;
+  width: 370px;
+  margin-top: 130px;
+  margin-left: 105px;
+  position: absolute;
+}
+.cardContent {
+  max-width: 200px;
+}
+.portfolioSlider {
+  margin-top: -30px;
+  margin-right: 20px;
+  padding: 30px;
+}
+.sliderIcon {
+  font-size: 45px;
+  margin-left: 43%;
+  margin-top: 370px;
+  display: block;
+}
+
+
+
+
+
+
+
+
+/* Contact Form
+.formLayout {
+  display: block;
+  height: 20px;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+.formMessage {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+.position {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 110px;
+}
+.formButton {
+  width: 400px;
+  height: 20px;
+  margin: 10px;
+} */
