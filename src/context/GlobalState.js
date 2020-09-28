@@ -29,8 +29,8 @@ const initialState = {
             title: 'YelpCamp',
             image: 'imageYC',
             content: 'A place to add and search for campgrounds',
-            viewURL: '#',
-            gitURL: '#',
+            viewURL: 'https://tjcyelpcamp.herokuapp.com/',
+            gitURL: 'https://github.com/Tom-Corkhill/YelpCamp',
             sliderDesc: "Yelpcamp is a website for adding and searching for campgrounds. You can add your own, and comment on other people's campgrounds.",
             languages: [
                 'Node JS', 'MongoDB', 'Express', 'Bootstrap', 'Git', 'Google Maps API'
