@@ -8,7 +8,7 @@ const initialState = {
             image: 'imageSS',
             content: 'Social Media Consultant portfolio website',
             viewURL: 'http://www.thestoreysocial.co.uk/',
-            gitURL: '#',
+            gitURL: 'https://github.com/Tom-Corkhill/the-storey-social',
             sliderDesc: 'The Storey Social is a social media portfolio website intended to show off my clients accomplishments and includes a contact form with links to all relevant social media.',
             languages: [
                 'Node JS', 'Express', 'Bootstrap', 'Git'

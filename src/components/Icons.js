@@ -35,8 +35,8 @@ const useStyles = makeStyles((theme) => ({
                     {eyeIcon}
                 </div>
             </IconButton>
-            <IconButton>
-                <MarkGithubIcon className={classes.icons} size={32} href={props.gitURL} target="_blank" />
+            <IconButton href={props.gitURL} target="_blank" >
+                <MarkGithubIcon className={classes.icons} size={32} />
             </IconButton>
       </React.Fragment>
   );
