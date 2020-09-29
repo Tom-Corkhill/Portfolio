@@ -18,8 +18,8 @@ const initialState = {
             title: 'Pantry Sorter',
             image: 'imagePS',
             content: 'Website that stores and sorts food in a pantry',
-            viewURL: '#',
-            gitURL: '#',
+            viewURL: 'https://pantrysorter.herokuapp.com/',
+            gitURL: 'https://github.com/Tom-Corkhill/pantry-sorter',
             sliderDesc: 'Pantry Sorter is a useful site used for storing and sorting foods by use by date. Made using React, it has a fast and responsive design that is easy to use.',
             languages: [
                 'Node JS', 'React', 'MongoDB', 'Express', 'Bootstrap', 'Git'
