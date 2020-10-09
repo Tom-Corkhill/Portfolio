@@ -29,14 +29,12 @@ export default function Landing() {
 
     return (
         <React.Fragment>
-            <div className="wrapper">
                 <div className="background">
 
                     {/* <animated.div className="box" style={props3}></animated.div> */}
                     <animated.div className="greeting1" style={props1}><p>Hi, I'm Tom.</p></animated.div>
                     <animated.div className="greeting2" style={props2}><p>I'm a full-stack web developer.</p></animated.div>
                 </div>
-            </div>
         </React.Fragment>
 
     )
