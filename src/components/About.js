@@ -22,15 +22,17 @@ export default function About() {
 
                             <h1 className="aboutSecondHeading">Tom Corkhill</h1>
                             <p>
-                                In 2019 I travelled and worked my way around Australia, and have come back to the UK
-                                eager to find work in web development.
-                            </p>
-                            <p>During the Covid-19 lockdown at the start of 2020, I taught myself web development.
-                                Flash forward 8 months and I have built a full website for a client, as well as having
-                                a number of personal projects under my belt.
+                            I am searching for my first job in website development. 
+                            In 2019 I travelled and worked in Australia and came back to the UK eager to find work, however confused about what industry to go into. 
                             </p>
                             <p>
-                                <strong>All of my work can be viewed over on the Portfolio page</strong>
+                            When the Covid-19 lockdown struck I used that time to teach myself to code, and absolutely loved it. 
+                            I learnt it through a range of different courses and online tutorials. 
+                            Eight months later I have built a full website for a client and have created other personal projects. 
+                            These can all be viewed over on the portfolio page.  
+                            </p>
+                            <p>
+                            I am now eager to find my first role in the industry and progress my skills further.
                             </p>
                         </div>
                     </Grid>

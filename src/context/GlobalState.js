@@ -9,10 +9,8 @@ const initialState = {
             content: 'Social Media Consultant portfolio website',
             viewURL: 'http://www.thestoreysocial.co.uk/',
             gitURL: 'https://github.com/Tom-Corkhill/the-storey-social',
-            sliderDesc: 'The Storey Social is a social media portfolio website intended to show off my clients accomplishments and includes a contact form with links to all relevant social media.',
-            languages: [
-                'Node JS', 'Express', 'Bootstrap', 'Git'
-            ]
+            sliderDesc: 'The Storey Social is a social media portfolio website intended to display my clients accomplishments. I worked collaboratively with the client to ensure the needs of the website were met, as well as ensuring the website was fully responsive on all devices. It includes a contact form made using Nodemailer.',
+            languages: 'Node JS, Express, Bootstrap and Git'
         },
         {
             title: 'Pantry Sorter',
@@ -20,10 +18,8 @@ const initialState = {
             content: 'Website that stores and sorts food in a pantry',
             viewURL: 'https://pantrysorter.herokuapp.com/',
             gitURL: 'https://github.com/Tom-Corkhill/pantry-sorter',
-            sliderDesc: 'Pantry Sorter is a useful site used for storing and sorting foods by use by date. Made using React, it has a fast and responsive design that is easy to use.',
-            languages: [
-                'Node JS', 'React', 'MongoDB', 'Express', 'Bootstrap', 'Git'
-            ]
+            sliderDesc: 'Pantry sorter is a personal project that I have created. It is a useful website used for storing and sorting food by use by date. I used React to make it to ensure it has a fast and intuitive design that is easy for the everyday user to use.',
+            languages: 'Node JS, React, MongoDB, Express, Bootstrap and Git'
         },
         {
             title: 'YelpCamp',
@@ -31,10 +27,8 @@ const initialState = {
             content: 'A place to add and search for campgrounds',
             viewURL: 'https://tjcyelpcamp.herokuapp.com/',
             gitURL: 'https://github.com/Tom-Corkhill/YelpCamp',
-            sliderDesc: "Yelpcamp is a website for adding and searching for campgrounds. You can add your own, and comment on other people's campgrounds.",
-            languages: [
-                'Node JS', 'MongoDB', 'Express', 'Bootstrap', 'Git', 'Google Maps API'
-            ]
+            sliderDesc: "Yelpcamp is a project that was made in conjunction with my coding course. The main purpose of it is to create a database of campgrounds, as well as building a community amongst the users. It has an interactive user experience where you can add campgrounds and also comment on other campground experiences. It includes Google Maps and Geocode APIs and has authentication allowing users to create an account.",
+            languages: 'Node JS, MongoDB, Express, Bootstrap, and Git'
         }
 
     ]

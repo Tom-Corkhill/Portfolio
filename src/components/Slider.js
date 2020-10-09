@@ -26,9 +26,7 @@ export default function Slider(props) {
             <hr></hr>
             <p>{props.sliderDesc}</p>
             <h4>Languages Used</h4>
-            {props.languages.map((language) => 
-                <li>{language}</li>
-            )}
+            <p>{props.languages}</p>
             </animated.div>
         </React.Fragment>
     );
