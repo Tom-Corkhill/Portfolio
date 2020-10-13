@@ -7,7 +7,7 @@ const initialState = {
             title: 'The Storey Social',
             image: 'imageSS',
             content: 'Social Media Consultant portfolio website',
-            viewURL: 'http://www.thestoreysocial.co.uk/',
+            viewURL: 'https://the-storey-social.herokuapp.com/',
             gitURL: 'https://github.com/Tom-Corkhill/the-storey-social',
             sliderDesc: 'The Storey Social is a social media portfolio website intended to display my clients accomplishments. I worked collaboratively with the client to ensure the needs of the website were met, as well as ensuring the website was fully responsive on all devices. It includes a contact form made using Nodemailer.',
             languages: 'Node JS, Express, Bootstrap and Git'
