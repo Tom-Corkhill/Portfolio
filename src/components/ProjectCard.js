@@ -6,7 +6,7 @@ import { Typography } from '@material-ui/core';
 
 
 
-export default function ProjectCardSocial(props) {
+export default function ProjectCard(props) {
   const [toggle, set] = useState(true);
   const props1 = useSpring({ opacity: toggle ? 1 : 0,
                             zIndex: toggle ? 3 : 1

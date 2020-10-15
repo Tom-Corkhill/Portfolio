@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
-import ProjectCardSocial from './ProjectCardSocial';
+import ProjectCard from './ProjectCard';
 
 import { Grid } from '@material-ui/core';
 import Container from '@material-ui/core/Container';
@@ -17,7 +17,7 @@ export default function Portfolio() {
                 <Grid container spacing={3} justify="center">
                     {cards.map((card) => 
                         <Grid key={card.title} item xs={12} md={4}>
-                            <ProjectCardSocial 
+                            <ProjectCard 
                             title={card.title} 
                             image={card.image} 
                             content={card.content} 
