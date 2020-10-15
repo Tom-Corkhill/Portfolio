@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { MarkGithubIcon } from '@primer/octicons-react';
-// import { ImLinkedin } from 'react-icons/im';
 import video from '../images/LogoVid2.mp4';
+import MenuIcon from '@material-ui/icons/Menu';
  
 export default function ButtonAppBar() {
     const useStyles = makeStyles((theme) => ({
@@ -22,7 +22,6 @@ export default function ButtonAppBar() {
         menuButton: {
           marginLeft: 5,
           color: 'white',
-          textDecoration: 'none',
           fontSize: 17,
           padding: 20,
           marginTop: 20
@@ -30,7 +29,6 @@ export default function ButtonAppBar() {
         homeButton: {
             marginLeft: 700,
             color: 'white',
-            textDecoration: 'none',
             fontSize: 17,
             padding: 20,
             marginTop: 20
@@ -38,7 +36,6 @@ export default function ButtonAppBar() {
         toolbar: {
           display: 'flex',
           justifyContent: 'center',
-          textDecoration: 'none',
           alignItems: 'center',
           zIndex: 1,
         },
@@ -53,6 +50,9 @@ export default function ButtonAppBar() {
             fontSize: 40,
             color: 'white',
             zIndex: 5
+        },
+        link: {
+            textDecoration: 'none'
         }
       }));
 
@@ -70,19 +70,19 @@ export default function ButtonAppBar() {
                             </video>
                         </Link>
 
-                        <Link to="/">
+                        <Link to="/" className={classes.link}>
                         <Button color="inherit" className={classes.homeButton}>
                             Home
                         </Button>
                         </Link>
 
-                        <Link to="/about">
+                        <Link to="/about" className={classes.link}>
                         <Button color="inherit" className={classes.menuButton}>
                             About
                         </Button>
                         </Link>
 
-                        <Link to="/portfolio">
+                        <Link to="/portfolio" className={classes.link}>
                         <Button color="inherit" className={classes.menuButton}>
                             Portfolio
                         </Button>
@@ -95,7 +95,7 @@ export default function ButtonAppBar() {
 
 
 
-                        {/* <Link to="/contact">
+                        {/* <Link to="/contact" className={classes.link}>
                         <Button color="inherit" className={classes.menuButton}>
                             Contact
                         </Button>
