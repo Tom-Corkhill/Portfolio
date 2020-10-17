@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { MarkGithubIcon } from '@primer/octicons-react';
 import video from '../images/LogoVid2.mp4';
-import MenuIcon from '@material-ui/icons/Menu';
+import Pdf from '../links/CVPDF.pdf';
  
 export default function ButtonAppBar() {
     const useStyles = makeStyles((theme) => ({
@@ -88,6 +88,12 @@ export default function ButtonAppBar() {
                         </Button>
                         </Link>
 
+                        <a href={Pdf} target="blank" className={classes.link}>
+                            <Button color="inherit" className={classes.menuButton}>
+                                CV
+                            </Button>
+                        </a>
+
                         <IconButton className={classes.icons} href="https://github.com/Tom-Corkhill" target="_blank" >
                             <MarkGithubIcon size={36}  />
                         </IconButton>
@@ -95,11 +101,8 @@ export default function ButtonAppBar() {
 
 
 
-                        {/* <Link to="/contact" className={classes.link}>
-                        <Button color="inherit" className={classes.menuButton}>
-                            Contact
-                        </Button>
-                        </Link> */}
+
+
 
                     </Toolbar>
                 </Container>
