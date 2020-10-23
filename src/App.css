@@ -112,12 +112,16 @@ body {
   border-radius: 50%;
 }
 .aboutText {
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 25px;
   font-size: 19px;
 }
 .aboutSecondHeading {
   margin-top: 80px;
+}
+.about-anchor {
+  color: black;
+
 }
 
 

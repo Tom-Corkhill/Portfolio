@@ -11,19 +11,20 @@ export default function About() {
                     </Grid>
                     <Grid item xs={12} md={8}>
                         <div className="aboutText">
-                            <h1>TJC Webdev / How Can I Help You?</h1>
+                            <h1>What I can offer</h1>
+                            <p><strong>Technologies:</strong> HTML, CSS, Javascript, NodeJS, Express, MongoDB, React, Bootstrap, MaterialUI and Git.</p>
                             <p>
-                                I can help you with all your website needs. From changing content on an existing
-                                website to creating a new, fully responsive website.
+                            I can offer a range of services from updating existing projects to creating brand new fully responsive websites.
                             </p>
                             <p>
-                                <strong>Head on over to the Contact page to get in touch today!</strong>
+                            If you think I will suit a role available please don’t hesitate to contact me at <strong><a className="about-anchor" rel="noopener noreferrer" href="mailto: tjcorkhill@gmail.com" target="_blank">TJCorkhill@gmail.com</a></strong> or head over to
+                            my <strong><a className="about-anchor" rel="noopener noreferrer" href="https://github.com/Tom-Corkhill" target="_blank">GitHub</a></strong> profile to see more. 
                             </p>
 
                             <h1 className="aboutSecondHeading">Tom Corkhill</h1>
                             <p>
                             I am searching for my first job in website development. 
-                            In 2019 I travelled and worked in Australia and came back to the UK eager to find work, however confused about what industry to go into. 
+                            In 2019 I travelled and worked in Australia and came back to the UK eager to find work. 
                             </p>
                             <p>
                             When the Covid-19 lockdown struck I used that time to teach myself to code, and absolutely loved it. 
