@@ -1,6 +1,7 @@
 {
-  "name": "animation-test",
+  "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "http://t-corkhill.co.uk/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
