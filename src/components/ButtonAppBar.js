@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { MarkGithubIcon } from '@primer/octicons-react';
 import video from '../images/LogoVid2.mp4';
-import Pdf from '../links/CVPDF.pdf';
+import Pdf from '../links/ThomasCorkhillCV.pdf';
  
 export default function ButtonAppBar() {
     const useStyles = makeStyles((theme) => ({
