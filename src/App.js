@@ -12,6 +12,7 @@ import Footer from './components/Footer';
  
 
 export default function App() {
+  document.title = "T Corkhill - Portfolio";
   const location = useLocation()
   const transitions = useTransition(location, location => location.pathname, {
     from: { opacity: 0, transform: 'translate3d(100%,0,0)' },
